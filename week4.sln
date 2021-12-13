@@ -3,12 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDemo", "week4\VirtualDemo.csproj", "{C206ED2B-5664-4BC7-A937-534721C1A6F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualDemo", "week4\VirtualDemo.csproj", "{C206ED2B-5664-4BC7-A937-534721C1A6F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{706EC025-A31B-4EE3-8492-249406A0200D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionDemo", "ExceptionDemo\ExceptionDemo.csproj", "{580EACCB-60C0-4BA4-8FD1-EA47FDA97C82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDemo1", "TestDemo1\TestDemo1.csproj", "{802B3D8B-CA81-4E4F-859F-1D887D981DB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDemo2_Test", "TestDemo2_Test\TestDemo2_Test.csproj", "{285484FA-1119-4A32-B4C5-DBBE62E82AA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolymorphismDemo", "PolymorphismDemo\PolymorphismDemo.csproj", "{1D6CBDD1-CAE6-4198-ABB5-F11F15249039}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{7012707E-5C91-428A-816B-7A0E9BAEE1B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Used Car Lot", "Used Car Lot\Used Car Lot.csproj", "{4CED26B5-21B7-4758-8802-A2D8F7E28FBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +32,30 @@ Global
 		{C206ED2B-5664-4BC7-A937-534721C1A6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C206ED2B-5664-4BC7-A937-534721C1A6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C206ED2B-5664-4BC7-A937-534721C1A6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580EACCB-60C0-4BA4-8FD1-EA47FDA97C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580EACCB-60C0-4BA4-8FD1-EA47FDA97C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580EACCB-60C0-4BA4-8FD1-EA47FDA97C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580EACCB-60C0-4BA4-8FD1-EA47FDA97C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802B3D8B-CA81-4E4F-859F-1D887D981DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802B3D8B-CA81-4E4F-859F-1D887D981DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802B3D8B-CA81-4E4F-859F-1D887D981DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802B3D8B-CA81-4E4F-859F-1D887D981DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285484FA-1119-4A32-B4C5-DBBE62E82AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285484FA-1119-4A32-B4C5-DBBE62E82AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285484FA-1119-4A32-B4C5-DBBE62E82AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285484FA-1119-4A32-B4C5-DBBE62E82AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6CBDD1-CAE6-4198-ABB5-F11F15249039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6CBDD1-CAE6-4198-ABB5-F11F15249039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6CBDD1-CAE6-4198-ABB5-F11F15249039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6CBDD1-CAE6-4198-ABB5-F11F15249039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7012707E-5C91-428A-816B-7A0E9BAEE1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7012707E-5C91-428A-816B-7A0E9BAEE1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7012707E-5C91-428A-816B-7A0E9BAEE1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7012707E-5C91-428A-816B-7A0E9BAEE1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CED26B5-21B7-4758-8802-A2D8F7E28FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CED26B5-21B7-4758-8802-A2D8F7E28FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CED26B5-21B7-4758-8802-A2D8F7E28FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CED26B5-21B7-4758-8802-A2D8F7E28FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
